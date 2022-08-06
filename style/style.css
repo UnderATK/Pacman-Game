@@ -1,0 +1,51 @@
+body {
+	margin: 0 auto;
+	font-family: Arial;
+    width: 100%;
+    background-color: azure;
+}
+
+audio {
+    display: none;
+}
+
+h2 {
+    width: 60%;
+    float: left;
+    display: inline;
+    text-align: center;
+    border: 2px solid black;
+    background-color: gainsboro;
+    font-size: 45px;   
+    margin-left: 20%;
+    border-radius: 20px;
+}
+
+#score_board {
+    margin: 0 auto;
+    width: 50%;
+}
+
+#score_board img {
+    height: 28px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input[type=text]{
+    font-size: 18px;
+    border-radius: 6px;
+    background-color: aliceblue;
+    outline: none;
+    text-align: center;
+}
+
+#canvas {
+    margin: 0 auto;
+    margin-left: 25%;
+    border: rgb(6, 112, 212) 3px solid;
+    border-radius: 15px 15px 15px 15px;
+}
